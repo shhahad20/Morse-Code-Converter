@@ -1,0 +1,44 @@
+SPACE1 = " "
+SPACE3 = "  " # 2 units
+SPACE7 = "      " # 6 units
+DASH = "▄▄▄"+SPACE1
+DOT = "▄"+SPACE1
+
+Alpha = {
+    "A": DOT+DASH+SPACE3,
+    "B": DASH+DOT*3+SPACE3,
+    "C": DASH+DOT+DASH+DOT+SPACE3,
+    "D": DASH+DOT*2+SPACE3,
+    "E": DOT+SPACE3,
+    "F": DOT*2+DASH+DOT+SPACE3,
+    "G": DASH*2+DOT+SPACE3,
+    "H": DOT*4+SPACE3,
+    "I": DOT*2+SPACE3,
+    "J": DOT+DASH*3+SPACE3,
+    "K": DASH+DOT+DASH+SPACE3,
+    "L": DOT+DASH+DOT*2+SPACE3,
+    "M": DASH*2+SPACE3,
+    "N": DASH+DOT+SPACE3,
+    "O": DASH*3+SPACE3,
+    "P": DOT+DASH*2+DOT+SPACE3,
+    "Q": DASH*2+DOT+DASH+SPACE3,
+    "R": DOT+DASH+DOT+SPACE3,
+    "S": DOT*3+SPACE3,
+    "T": DASH+SPACE3,
+    "U": DOT*2+DASH+SPACE3,
+    "V": DOT*3+DASH+SPACE3,
+    "W": DOT+DASH*2+SPACE3,
+    "X": DASH+DOT*2+DASH+SPACE3,
+    "Y": DASH+DOT+DASH*2+SPACE3,
+    "Z": DASH*2+DOT*2+SPACE3,
+    "1": DOT+DASH*4+SPACE3,
+    "2": DOT*2+DASH*3+SPACE3,
+    "3": DOT*3+DASH*2+SPACE3,
+    "4": DOT*4+DASH+SPACE3,
+    "5": DOT*5+SPACE3,
+    "6": DASH+DOT*4+SPACE3,
+    "7": DASH*2+DOT*3+SPACE3,
+    "8": DASH*3+DOT*2+SPACE3,
+    "9": DASH*4+DOT+SPACE3,
+    "0": DASH*5+SPACE3
+}
